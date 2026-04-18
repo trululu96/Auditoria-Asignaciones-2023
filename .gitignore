@@ -1,0 +1,22 @@
+# Credenciales — nunca versionar
+credenciales/*
+!credenciales/.gitkeep
+
+# Outputs de ejecución
+logsArchivoOriginal/*
+!logsArchivoOriginal/.gitkeep
+
+logsArchivoCopia/*
+!logsArchivoCopia/.gitkeep
+
+extraccionArchivoCopia/*
+!extraccionArchivoCopia/.gitkeep
+
+# Instrucciones internas
+Claude.md
+
+# Entorno virtual
+.venv/
+
+# macOS
+.DS_Store
